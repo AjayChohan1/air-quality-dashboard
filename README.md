@@ -22,27 +22,27 @@ It includes minimum, maximum, and average daily pollutant levels for multiple po
 
 ## Features
 - **Data Cleaning & Validation**  
-- Handle missing values and outliers  
-- Standardize column names & formats  
-- Produce a cleaned dataset (`analysis.csv`)  
+    - Handle missing values and outliers  
+    - Standardize column names & formats  
+    - Produce a cleaned dataset (`analysis.csv`)  
 
 - **Exploratory Data Analysis (EDA)**  
-- Summary statistics by city and region  
-- Trends over time (2000–2016)  
-- Correlations and key metrics  
+    - Summary statistics by city and region  
+    - Trends over time (2000–2016)
+    - Correlations and key metrics  
 
 - **Visualizations**  
-- Static charts (Matplotlib/Seaborn)  
-- Interactive dashboards (Plotly)  
-- Heatmaps, boxplots, and trend lines  
+    - Static charts (Matplotlib/Seaborn)  
+    - Interactive dashboards (Plotly)  
+    - Heatmaps, boxplots, and trend lines  
 
 - **Project Management**  
-- Trello board with milestones and workflows  
-- Clear definition of completed  
-- Automated task tracking (Butler, labels, checklists) 
+    - Trello board with milestones and workflows  
+    - Clear definition of completed  
+    - Automated task tracking (Butler, labels, checklists) 
 
 ## Hypothesis and how to validate?
--  Hypothesis 1: Air quality has improved overall from 2000–2016.
+- Hypothesis 1: Air quality has improved overall from 2000–2016.
 - Validate using trend line plots of average pollutant levels.
 - Hypothesis 2: Some cities/regions remain consistently more polluted.
 - Validate using max/min statistics and boxplots by city.
@@ -68,6 +68,7 @@ It includes minimum, maximum, and average daily pollutant levels for multiple po
 - Visualization: static (Seaborn/Matplotlib), interactive (Plotly).
 - Time Series Analysis: trends from 2000–2016.
 - Heatmaps & Correlation Matrices: pollutant relationships across time.
+
 ## Limitations:
 - Missing data in some regions required interpolation.
 - Seasonal trends only partially visible in aggregated annual data.
@@ -78,6 +79,9 @@ It includes minimum, maximum, and average daily pollutant levels for multiple po
 - Transparency: Full cleaning pipeline is shared for reproducibility.
 
 ## Dashboard Design
+Power BI was used 
+- https://github.com/AjayChohan1/air-quality-dashboard/blob/visualisations/data/Outputs/PollutionUSA.pbix
+
 - Homepage: Overview (national trends, key metrics).
 - Regional Trends: Line charts per region.
 - City Analysis: Top 10 polluted/cleanest cities.
