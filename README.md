@@ -79,9 +79,7 @@ It includes minimum, maximum, and average daily pollutant levels for multiple po
 - Transparency: Full cleaning pipeline is shared for reproducibility.
 
 ## Dashboard Design
-Power BI was used 
-- https://github.com/AjayChohan1/air-quality-dashboard/blob/visualisations/data/Outputs/PollutionUSA.pbix
-
+- Power BI was used
 - Homepage: Overview (national trends, key metrics).
 - Regional Trends: Line charts per region.
 - City Analysis: Top 10 polluted/cleanest cities.
